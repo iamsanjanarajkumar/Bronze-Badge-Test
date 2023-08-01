@@ -1,0 +1,24 @@
+table{
+    margin-top: 100px;
+    border-collapse: collapse;
+    box-shadow: -5px -5px 10px burlywood;
+    background: linear-gradient(to left,lightblue,lightgreen);
+    color:white
+}
+th{
+    padding: 16px;
+    background-color: cadetblue;
+    color: white;
+}
+td{
+    padding: 12px;
+    text-align: center;
+}
+td:nth-child(even):hover{
+    background-color: burlywood;
+    color: brown;
+}
+td:hover{
+    background-color: darkseagreen;
+    color: darkred;
+}
